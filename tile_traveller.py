@@ -61,7 +61,7 @@ def move(x,y,string):
     return x,y
     
 
-while (x,y) != (3,1):
+while (x,y) != (3,1): #the victory is in (3,1)
     a = x
     b = y
     N,E,S,W = True,True,True,True
