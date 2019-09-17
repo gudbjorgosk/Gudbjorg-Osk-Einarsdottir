@@ -1,5 +1,7 @@
 x,y = 1,1
 
+
+
 def north(x,y): #function for north
     if y == 3 or (x,y) == (2,2) or (x,y) == (3,1):
         return False
@@ -59,6 +61,8 @@ def move(x,y,string):
     elif string == "E":
         x += movement(E)
     return x,y
+    
+    
     
 
 while (x,y) != (3,1): #the victory is in (3,1)
