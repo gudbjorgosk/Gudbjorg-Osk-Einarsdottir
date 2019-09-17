@@ -39,7 +39,7 @@ def string(n,e,s,w):
         dir += " or (W)est"
     return dir
     
-def command_call():
+def which_way():
     i = input("Direction: ")
     i = i.upper()
     return i
@@ -73,7 +73,7 @@ while (x,y) != (3,1):
     print("You can travel: " + directions + ".")
     command = ""
     while (x,y) == (a,b):
-        command = command_call()
+        command = which_way()
         x,y = move(x,y,command)
         if (x,y) == (a,b):
             print("Not a valid direction!")
