@@ -1,4 +1,3 @@
-HALLAOC ERTU STRAKURE EÐA STELPA
 x,y = 1,1
 
 def north(x,y):
