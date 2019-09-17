@@ -1,21 +1,21 @@
 x,y = 1,1
 
-def north(x,y):
+def north(x,y): #function for north
     if y == 3 or (x,y) == (2,2) or (x,y) == (3,1):
         return False
     return True
 
-def east(x,y):
+def east(x,y): #function for not east
     if (x,y) != (1,2) and (x,y) != (1,3) and (x,y) != (2,3):
         return False
     return True
 
-def west(x,y):
+def west(x,y): #function for wwst
     if y == 1 or x == 1 or (x,y) == (3,2):
         return False
     return True
 
-def south(x,y):
+def south(x,y): #function for south
     if y == 1 or (x,y) == (2,3):
         return False
     return True
