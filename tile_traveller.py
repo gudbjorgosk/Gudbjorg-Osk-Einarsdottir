@@ -44,20 +44,20 @@ def which_way():
     i = i.upper()
     return i
 
-def translocator(boolean):
+def movement(boolean):
     if boolean == True:
         return 1
     return 0
 
 def move(x,y,string):
     if string == "N":
-        y += translocator(N)
+        y += movement(N)
     elif string == "S":
-        y -= translocator(S)
+        y -= movement(S)
     elif string == "W":
-        x -= translocator(W)
+        x -= movement(W)
     elif string == "E":
-        x += translocator(E)
+        x += movement(E)
     return x,y
     
 
