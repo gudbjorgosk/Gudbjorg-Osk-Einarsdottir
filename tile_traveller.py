@@ -10,7 +10,7 @@ def east(x,y): #function for not east
         return False
     return True
 
-def west(x,y): #function for wwst
+def west(x,y): #function for west
     if y == 1 or x == 1 or (x,y) == (3,2):
         return False
     return True
