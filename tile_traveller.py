@@ -22,7 +22,7 @@ def south(x,y): #function for south
         return False
     return True
 
-def string(n,e,s,w):
+def string(n,e,s,w): #the function for direction options
     dir = ""
     while dir == "":
         if n == True:
@@ -41,12 +41,12 @@ def string(n,e,s,w):
         dir += " or (W)est"
     return dir
     
-def which_way():
+def which_way(): # returns input from user in upper case letter
     i = input("Direction: ")
     i = i.upper()
     return i
 
-def movement(boolean):
+def movement(boolean): 
     if boolean == True:
         return 1
     return 0
